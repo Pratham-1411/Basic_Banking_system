@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="icon" type="image/x-icon" href="contact1.png">
+    <link rel="stylesheet" href="contact.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+       function Contact(){
+        alert("Your Complaint Has Been Submitted.")
+    }
+    </script>
+
+</head>
+<body>
+
+<h3 style="text-align: center;">Contact Form</h3>
+
+<div class="container">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="ename">E-mail</label>
+    <input type="text" id="ename" name="E-mail" placeholder="Your E-mail..">
+
+    <label for="subject">Any Complaint</label>
+    <textarea id="subject" name="subject" placeholder="Write Complaint.." style="height:200px"></textarea>
+     
+    <div class="btn">
+    <input type="submit" value="Submit" onclick="Contact()">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
